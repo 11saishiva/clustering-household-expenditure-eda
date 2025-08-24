@@ -40,12 +40,12 @@ source venv/bin/activate        # macOS / Linux
 venv\Scripts\activate           # Windows
 
 pip install -r requirements.txt
-
+bash```
 ###  Run the Notebook
 
 ```bash
 jupyter notebook eda_ground_truth_households.ipynb
-
+bash```
 ---
 
 ##  Dataset
