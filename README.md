@@ -62,9 +62,24 @@ jupyter notebook eda_ground_truth_households.ipynb
 
 ##  Insights & Findings
 
--> Households in different sectors exhibit varying spending distributions.
--> Average transaction values correlate strongly with total expenditure.
--> Clustering analysis reveals distinct behavior groups based on transaction patterns.
+->  Households in different sectors exhibit varying spending distributions.
+->  Average transaction values correlate strongly with total expenditure.
+->  Clustering analysis reveals distinct behavior groups based on transaction patterns.
+
+---
+
+##  Parameters used
+
+->  spend_per_capita threshold range = total_expenditure/household_size
+->  transactions_per_capita threshold range = total_transactions/household_size
+
+---
+
+##  Visualization
+
+Accuracy of spend_per_capita threshold and transactions_per_capita threshold represented as a heatmap
+
+![Heatmap](assets/2025-08-24_21-44.png)
 
 ---
 
