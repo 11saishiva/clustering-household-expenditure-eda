@@ -89,21 +89,22 @@ Name: count, dtype: int64
 
 ###  Mean values of variables with respected to predicted Area type (Rural or Urban)
 
-                     total_expenditure  avg_transaction_value  \
-predicted_area_type                                             
-Rural                      4775.581940              99.933297   
-Urban                     10606.626774             184.463950   
+.....................total_expenditure....avg_transaction_value  
+predicted_area_type..........................................
+Rural......................4775.581940..............99.933297   
+Urban......................10606.626774.............184.463950   
 
-                     total_transactions  unique_items_purchased  
-predicted_area_type                                              
-Rural                         49.683459               49.683459  
-Urban                         59.715569               59.715569
+.....................total_transactions  unique_items_purchased  
+predicted_area_type............................................  
+Rural.........................49.683459...............49.683459  
+Urban.........................59.715569...............59.715569
 
 ---
 
 ##  Parameters used
 
 ->  spend_per_capita threshold range = total_expenditure/household_size
+
 ->  transactions_per_capita threshold range = total_transactions/household_size
 
 ---
