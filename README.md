@@ -78,26 +78,11 @@ jupyter notebook eda_ground_truth_households.ipynb
 
 ##  Model performance metrices
 
-cluster
-0     4775.581940
-1    10606.626774
-Name: total_expenditure, dtype: float64
-predicted_area_type
-Rural    192970
-Urban     68776
-Name: count, dtype: int64
+![screenshot1](assets/2025-08-24_22-06.png)
 
 ###  Mean values of variables with respected to predicted Area type (Rural or Urban)
 
-.....................total_expenditure....avg_transaction_value  
-predicted_area_type..........................................
-Rural......................4775.581940..............99.933297   
-Urban......................10606.626774.............184.463950   
-
-.....................total_transactions  unique_items_purchased  
-predicted_area_type............................................  
-Rural.........................49.683459...............49.683459  
-Urban.........................59.715569...............59.715569
+![screenshot2](assets/2025-08-24_22-06_1.png)
 
 ---
 
