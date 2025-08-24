@@ -2,7 +2,7 @@
 ![Made with Python](https://img.shields.io/badge/Made%20with-Python-blue)
 ![MIT License](https://img.shields.io/badge/License-MIT-green)
 
-# Ground Truth Households — Exploratory Data Analysis
+# Clustering Households into Rural and Urban Segments using Spending Patterns — Exploratory Data Analysis
 
 This repository hosts an in-depth **Exploratory Data Analysis (EDA)** on the Ground Truth Household dataset, aimed at uncovering patterns in household expenditure, transaction behavior, and sector-wise trends.
 
@@ -21,6 +21,14 @@ This EDA project follows a structured pipeline:
 5. **Clustering & Pattern Discovery**
 
 Visualizations include histograms, boxplots, scatterplots, and heatmaps to illustrate key insights.
+Performing unsupervised learning using the KMeans clustering algorithm to classify households into two segments — likely Rural and likely Urban — based on spending and transaction behavior.
+he dataset contains household-level parameters:
+
+    Total expenditure
+    Average transaction value
+    Total transactions
+    Unique items purchased
+
 
 ---
 
@@ -68,6 +76,31 @@ jupyter notebook eda_ground_truth_households.ipynb
 
 ---
 
+##  Model performance metrices
+
+cluster
+0     4775.581940
+1    10606.626774
+Name: total_expenditure, dtype: float64
+predicted_area_type
+Rural    192970
+Urban     68776
+Name: count, dtype: int64
+
+###  Mean values of variables with respected to predicted Area type (Rural or Urban)
+
+                     total_expenditure  avg_transaction_value  \
+predicted_area_type                                             
+Rural                      4775.581940              99.933297   
+Urban                     10606.626774             184.463950   
+
+                     total_transactions  unique_items_purchased  
+predicted_area_type                                              
+Rural                         49.683459               49.683459  
+Urban                         59.715569               59.715569
+
+---
+
 ##  Parameters used
 
 ->  spend_per_capita threshold range = total_expenditure/household_size
@@ -76,6 +109,10 @@ jupyter notebook eda_ground_truth_households.ipynb
 ---
 
 ##  Visualization
+
+Scatterplot visualizing the households classified as Rural or Urban - Predictions
+
+![Scatterplot](assets/2025-08-24_21-54.png)
 
 Accuracy of spend_per_capita threshold and transactions_per_capita threshold represented as a heatmap
 
