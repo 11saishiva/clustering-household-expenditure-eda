@@ -29,7 +29,7 @@ Visualizations include histograms, boxplots, scatterplots, and heatmaps to illus
 Get up and running in a few minutes:
 
 ```bash
-git clone https://github.com/your-username/eda-ground-truth-households.git
+git clone https://github.com/11saishiva/eda-ground-truth-households.git
 cd eda-ground-truth-households
 ```
 
