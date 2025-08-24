@@ -31,3 +31,44 @@ Get up and running in a few minutes:
 ```bash
 git clone https://github.com/your-username/eda-ground-truth-households.git
 cd eda-ground-truth-households
+
+###  Environment Setup
+
+```bash
+python -m venv venv
+source venv/bin/activate        # macOS / Linux
+venv\Scripts\activate           # Windows
+
+pip install -r requirements.txt
+
+###  Run the Notebook
+
+```bash
+jupyter notebook eda_ground_truth_households.ipynb
+
+---
+
+##  Dataset
+
+###  Key variables:
+
+1. **total_expenditure:** Overall spending per household
+2. **avg_transaction_value:** Average amount per transaction
+3. **total_transactions:** Number of transactions per household
+4. **common_id:** Unique ID for each household
+
+---
+
+##  Insights & Findings
+
+-> Households in different sectors exhibit varying spending distributions.
+-> Average transaction values correlate strongly with total expenditure.
+-> Clustering analysis reveals distinct behavior groups based on transaction patterns.
+
+---
+
+##  License
+
+This project is shared under the MIT License. Feel free to use, modify, and distribute freely.
+
+---
