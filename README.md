@@ -31,6 +31,7 @@ Get up and running in a few minutes:
 ```bash
 git clone https://github.com/your-username/eda-ground-truth-households.git
 cd eda-ground-truth-households
+bash```
 
 ###  Environment Setup
 
