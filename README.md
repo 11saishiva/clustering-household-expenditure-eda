@@ -31,7 +31,7 @@ Get up and running in a few minutes:
 ```bash
 git clone https://github.com/your-username/eda-ground-truth-households.git
 cd eda-ground-truth-households
-bash```
+```
 
 ###  Environment Setup
 
@@ -41,12 +41,12 @@ source venv/bin/activate        # macOS / Linux
 venv\Scripts\activate           # Windows
 
 pip install -r requirements.txt
-bash```
+```
 ###  Run the Notebook
 
 ```bash
 jupyter notebook eda_ground_truth_households.ipynb
-bash```
+```
 ---
 
 ##  Dataset
